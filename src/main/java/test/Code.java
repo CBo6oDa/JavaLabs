@@ -218,6 +218,7 @@ public class Code {
         int firstField;
         int secondField;
 
+
         public TwoInt(int a, int b) {
             this.firstField = a;
             this.secondField = b;

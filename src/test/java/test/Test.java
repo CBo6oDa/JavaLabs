@@ -135,7 +135,6 @@ public class Test {
         return new Object[][]{{25, 5, new Code.TwoInt(5, 0)}, {10, 3, new Code.TwoInt(3, 1)}, {1, 3, new Code.TwoInt(0, 3)}, {10, 1, new Code.TwoInt(10, 0)}, {2, 5, new Code.TwoInt(0, 4)}};
     }
 
-    //TODO create provider for negative tests
     @org.testng.annotations.Test(expectedExceptions = AssertionError.class)
     public void whileNegativeTest() {
 
